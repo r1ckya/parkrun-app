@@ -452,6 +452,23 @@ const ParkrunApp = () => {
     );
   };
 
+  // Buy Me a Coffee button component
+  const BuyMeACoffee = () => (
+    <Box sx={{ textAlign: 'center', mt: 4 }}>
+      <a
+        href="https://www.buymeacoffee.com/r1ckya"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        <img
+          src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png"
+          alt="Buy Me A Coffee"
+          style={{ height: 40, borderRadius: 8, boxShadow: '0 2px 8px #0002' }}
+        />
+      </a>
+    </Box>
+  );
+
   if (loading) {
     return (
       <div className="min-h-screen bg-gray-50 flex items-center justify-center">
@@ -646,6 +663,7 @@ const ParkrunApp = () => {
                 List View
               </Button>
             </Box>
+            <BuyMeACoffee />
           </Box>
         </Box>
         {/* Right: Map/List view */}
