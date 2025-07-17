@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/parkrun-app/static/css/main.b9b38df0.css",
+    "main.js": "/parkrun-app/static/js/main.1cedd601.js",
+    "static/js/453.60983f4a.chunk.js": "/parkrun-app/static/js/453.60983f4a.chunk.js",
+    "index.html": "/parkrun-app/index.html",
+    "main.b9b38df0.css.map": "/parkrun-app/static/css/main.b9b38df0.css.map",
+    "main.1cedd601.js.map": "/parkrun-app/static/js/main.1cedd601.js.map",
+    "453.60983f4a.chunk.js.map": "/parkrun-app/static/js/453.60983f4a.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b9b38df0.css",
+    "static/js/main.1cedd601.js"
+  ]
+}
